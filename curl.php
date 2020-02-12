@@ -154,7 +154,7 @@ function verif($otp, $token)
     }
 function claim($token)
     {
-    $data = '{"promo_code":"GOJEKINFCR"}';    
+    $data = '{"promo_code":"GOFOOD021120A"}';    
     $claim = request("/go-promotions/v1/promotions/enrollments", $token, $data);
     if ($claim['success'] == 1)
         {
