@@ -152,7 +152,7 @@ function verif($otp, $token)
         return false;
         }
     }
-function claim($token)
+function gofood($token)
     {
     $data = '{"promo_code":"GOFOOD021120A"}';    
     $claim = request("/go-promotions/v1/promotions/enrollments", $token, $data);
